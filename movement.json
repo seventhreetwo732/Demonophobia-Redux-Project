@@ -1614,7 +1614,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Setting background black"
+          "comment": "Setting background black with javascript\n"
         },
         {
           "colorB": 228,
