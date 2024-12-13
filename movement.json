@@ -471,6 +471,54 @@
           "identifier": "https://project-resources.gdevelop.io/f1c3f57e-348b-4ebf-be36-54c9ae86e952/resources/aaffbbe83081e6cd0ab32bc32bce09c117fc58631a65447722b6f41b8060c1bd-Idle-1.png.png",
           "name": "cloud-project-resource"
         }
+      },
+      {
+        "file": "assets/image/Untitled63_20240401042030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Untitled63_20240401042030.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Untitled63_20240401042140.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Untitled63_20240401042140.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Untitled63_20240401042256.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Untitled63_20240401042256.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Untitled66_20240401043302.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Untitled66_20240401043302.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Untitled66_20240401043045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Untitled66_20240401043045.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Untitled66_20240401043058.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Untitled66_20240401043058.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1384,7 +1432,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Untitled66_20240401043045.png",
+                      "image": "assets\\image\\Untitled66_20240401043045.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1420,7 +1468,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Untitled66_20240401043302.png",
+                      "image": "assets\\image\\Untitled66_20240401043302.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1456,7 +1504,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Untitled66_20240401043058.png",
+                      "image": "assets\\image\\Untitled66_20240401043058.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1492,43 +1540,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Untitled66_20240401043302.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 78,
-                            "y": 37
-                          },
-                          {
-                            "x": 130,
-                            "y": 37
-                          },
-                          {
-                            "x": 130,
-                            "y": 263
-                          },
-                          {
-                            "x": 78,
-                            "y": 263
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Untitled66_20240401043045.png",
+                      "image": "assets\\image\\Untitled66_20240401043302.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1999,6 +2011,17 @@
                 "=",
                 "\"Crouching\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Dummy",
+                "PlatformerObject",
+                "=",
+                "60"
+              ]
             }
           ],
           "events": [
@@ -2081,6 +2104,17 @@
                 "Animation",
                 "=",
                 "\"Standup\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Dummy",
+                "PlatformerObject",
+                "=",
+                "100"
               ]
             }
           ]
