@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 219,
+    "build": 222,
     "major": 5,
-    "minor": 4,
+    "minor": 5,
     "revision": 0
   },
   "properties": {
@@ -18,7 +18,6 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
-    "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "movement test",
     "description": "",
@@ -1617,6 +1616,75 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Dummy",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Dummy",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Dummy",
+                "=",
+                "800"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "0",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "800",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -2207,6 +2275,18 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Triggers"
         }
       ],
       "layers": [
@@ -12470,6 +12550,5 @@
       "eventsBasedObjects": []
     }
   ],
-  "externalLayouts": [],
-  "externalSourceFiles": []
+  "externalLayouts": []
 }
