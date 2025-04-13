@@ -542,6 +542,22 @@
         "name": "collision3",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/image/Backgrounds/Hallways/passlast.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Backgrounds\\Hallways\\passlast.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Backgrounds/Room/roomblack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Backgrounds\\Room\\roomblack.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -573,7 +589,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.647257654662851,
+        "zoomFactor": 0.6796273562953422,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1645,10 +1661,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -1772,6 +1788,38 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 600,
+          "leftMargin": 0,
+          "name": "background2",
+          "rightMargin": 0,
+          "texture": "assets\\image\\Backgrounds\\Hallways\\passlast.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 3000,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 600,
+          "leftMargin": 0,
+          "name": "blackloading",
+          "rightMargin": 0,
+          "texture": "assets\\image\\Backgrounds\\Room\\roomblack.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 1200,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -1779,6 +1827,12 @@
         "children": [
           {
             "objectName": "background"
+          },
+          {
+            "objectName": "background2"
+          },
+          {
+            "objectName": "blackloading"
           },
           {
             "objectName": "Dummy"
@@ -1814,6 +1868,17 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Camera",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2489,16 +2554,15 @@
           "actions": []
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Triggers"
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Triggers & Background Loading",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
         }
       ],
       "layers": [
