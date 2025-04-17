@@ -574,6 +574,14 @@
         "name": "collision5",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/collision6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "collision6",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -670,18 +678,24 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 180,
           "customSize": true,
           "depth": 1,
+          "flippedX": true,
           "height": 600,
           "layer": "",
           "name": "collision",
           "persistentUuid": "8d43be2d-fdbb-40f3-b891-64681518a63e",
           "width": 50,
-          "x": 1000,
+          "x": 1033,
           "y": 0,
           "zOrder": 0,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -731,15 +745,15 @@
           "effects": [],
           "behaviors": [
             {
-              "deceleration": 3000,
+              "gravity": 0,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "deceleration": 3000,
               "maxSpeed": 100,
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": false,
-              "gravity": 1000,
               "ignoreDefaultControls": false,
               "jumpSpeed": 0,
               "jumpSustainTime": 0,
@@ -1277,10 +1291,10 @@
           "effects": [],
           "behaviors": [
             {
+              "canBeGrabbed": true,
               "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
               "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0
             }
           ],
@@ -1296,7 +1310,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "collision5",
+                      "image": "collision6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1448,7 +1462,7 @@
               "parameters": [
                 "Dummy",
                 "=",
-                "1000"
+                "900"
               ]
             },
             {
