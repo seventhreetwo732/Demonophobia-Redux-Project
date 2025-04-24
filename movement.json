@@ -582,6 +582,14 @@
         "name": "collision6",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/collision7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "collision7",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -745,9 +753,9 @@
           "effects": [],
           "behaviors": [
             {
-              "gravity": 0,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "gravity": 0,
               "deceleration": 3000,
               "maxSpeed": 100,
               "acceleration": 1500,
@@ -1291,10 +1299,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -1310,7 +1318,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "collision6",
+                      "image": "collision7",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
