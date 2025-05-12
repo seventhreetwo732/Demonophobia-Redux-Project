@@ -590,6 +590,14 @@
         "name": "collision7",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/collision8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "collision8",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1318,7 +1326,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "collision7",
+                      "image": "collision8",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
