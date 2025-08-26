@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 228,
+    "build": 230,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -598,6 +598,14 @@
         "name": "collision8",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/collision.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\collision.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -629,7 +637,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47188613633598175,
+        "zoomFactor": 0.5757786588736252,
         "windowMask": false
       },
       "objectsGroups": [
@@ -703,7 +711,7 @@
           "name": "collision",
           "persistentUuid": "8d43be2d-fdbb-40f3-b891-64681518a63e",
           "width": 50,
-          "x": 929,
+          "x": 950,
           "y": 8,
           "zOrder": 0,
           "numberProperties": [
@@ -717,14 +725,30 @@
         },
         {
           "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "blackloading",
+          "opacity": 0,
+          "persistentUuid": "ef5b620e-f931-4b47-8150-58d09114700c",
+          "width": 0,
+          "x": -600,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": true,
           "depth": 0,
           "height": 50,
           "keepRatio": true,
           "layer": "",
           "name": "Trigger",
-          "opacity": 0,
-          "persistentUuid": "b112466d-e548-454f-b3cb-74de659d85f3",
+          "persistentUuid": "9e1f0e05-6286-4321-b007-26fd84a8bd6c",
           "width": 50,
           "x": -100,
           "y": 300,
@@ -735,17 +759,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 50,
           "keepRatio": true,
           "layer": "",
-          "name": "blackloading",
-          "opacity": 0,
-          "persistentUuid": "4d10b746-f121-4ce4-b5f2-39661a325f5b",
-          "width": 0,
-          "x": -600,
-          "y": 0,
-          "zOrder": 6,
+          "name": "Trigger",
+          "persistentUuid": "f77d1bd5-db35-474b-94e5-742cb7ed1e4d",
+          "width": 50,
+          "x": 900,
+          "y": 300,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1343,7 +1367,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "collision8",
+                      "image": "assets\\collision.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2193,7 +2217,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "0.5"
+                "0.15"
               ]
             },
             {
@@ -2204,6 +2228,66 @@
                 "",
                 "\"test2\"",
                 ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Dummy.X()",
+                    "<",
+                    "Trigger.X()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Dummy",
+                    "=",
+                    "700",
+                    "=",
+                    "220"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Dummy.X()",
+                    ">",
+                    "Trigger.X()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Dummy",
+                    "=",
+                    "2100",
+                    "=",
+                    "220"
+                  ]
+                }
               ]
             }
           ]
@@ -2331,7 +2415,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5569965513098996,
+        "zoomFactor": 0.4564930403365035,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2433,6 +2517,75 @@
           "x": 700,
           "y": 220,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 600,
+          "keepRatio": true,
+          "layer": "",
+          "name": "blackloading",
+          "opacity": 0,
+          "persistentUuid": "8227433c-45e4-43bb-8494-72d5e78678ef",
+          "width": 1772,
+          "x": -2197,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 600,
+          "layer": "",
+          "name": "blackloading",
+          "opacity": 0,
+          "persistentUuid": "71855c5f-51cb-4122-8dd4-d2d2b862ea30",
+          "width": 3000,
+          "x": -2200,
+          "y": 0,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Trigger",
+          "persistentUuid": "1dd1b72b-971d-47de-94a5-6bf6e76829c9",
+          "width": 50,
+          "x": -2200,
+          "y": 300,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Trigger",
+          "persistentUuid": "ffafa520-9178-4994-8bc4-d8cfbb8b0a40",
+          "width": 50,
+          "x": 750,
+          "y": 300,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3030,7 +3183,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "collision8",
+                      "image": "assets\\collision.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3866,11 +4019,13 @@
           "actions": [
             {
               "type": {
-                "value": "SceneBackground"
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
-                "",
-                "\"0;0;0\""
+                "blackloading",
+                "Opacity",
+                "=",
+                "255"
               ]
             },
             {
@@ -3878,7 +4033,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "0.5"
+                "0.15"
               ]
             },
             {
@@ -3889,6 +4044,66 @@
                 "",
                 "\"test\"",
                 ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Dummy.X()",
+                    "<",
+                    "Trigger.X()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Dummy",
+                    "=",
+                    "900",
+                    "=",
+                    "220"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Dummy.X()",
+                    ">",
+                    "Trigger.X()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Dummy",
+                    "=",
+                    "50",
+                    "=",
+                    "220"
+                  ]
+                }
               ]
             }
           ]
@@ -7705,6 +7920,110 @@
           "fullName": "Multitouch Joystick",
           "isUsingLegacyInstancesRenderer": true,
           "name": "SpriteMultitouchJoystick",
+          "objects": [
+            {
+              "adaptCollisionMaskAutomatically": false,
+              "assetStoreId": "",
+              "name": "Thumb",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "animations": [
+                {
+                  "name": "Idle",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "adaptCollisionMaskAutomatically": false,
+              "assetStoreId": "",
+              "name": "Border",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "MultitouchJoystick",
+                  "type": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "ControllerIdentifier": 1,
+                  "JoystickIdentifier": "Primary",
+                  "FloatingEnabled": false,
+                  "DeadZoneRadius": 0.4,
+                  "JoystickAngle": 0,
+                  "JoystickForce": 0,
+                  "TouchId": 0,
+                  "TouchIndex": 0
+                }
+              ],
+              "animations": [
+                {
+                  "name": "Idle",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Thumb"
+              },
+              {
+                "objectName": "Border"
+              }
+            ]
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": [],
           "eventsFunctions": [
             {
               "fullName": "",
@@ -8664,110 +8983,7 @@
               "name": "ParentOrigin"
             }
           ],
-          "objects": [
-            {
-              "adaptCollisionMaskAutomatically": false,
-              "assetStoreId": "",
-              "name": "Thumb",
-              "type": "Sprite",
-              "updateIfNotVisible": false,
-              "variables": [],
-              "effects": [],
-              "behaviors": [],
-              "animations": [
-                {
-                  "name": "Idle",
-                  "useMultipleDirections": false,
-                  "directions": [
-                    {
-                      "looping": false,
-                      "timeBetweenFrames": 0.08,
-                      "sprites": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "adaptCollisionMaskAutomatically": false,
-              "assetStoreId": "",
-              "name": "Border",
-              "type": "Sprite",
-              "updateIfNotVisible": false,
-              "variables": [],
-              "effects": [],
-              "behaviors": [
-                {
-                  "name": "MultitouchJoystick",
-                  "type": "SpriteMultitouchJoystick::MultitouchJoystick",
-                  "ControllerIdentifier": 1,
-                  "JoystickIdentifier": "Primary",
-                  "FloatingEnabled": false,
-                  "DeadZoneRadius": 0.4,
-                  "JoystickAngle": 0,
-                  "JoystickForce": 0,
-                  "TouchId": 0,
-                  "TouchIndex": 0
-                }
-              ],
-              "animations": [
-                {
-                  "name": "Idle",
-                  "useMultipleDirections": false,
-                  "directions": [
-                    {
-                      "looping": false,
-                      "timeBetweenFrames": 0.08,
-                      "sprites": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "objectsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "objectName": "Thumb"
-              },
-              {
-                "objectName": "Border"
-              }
-            ]
-          },
-          "objectsGroups": [],
-          "layers": [
-            {
-              "ambientLightColorB": 200,
-              "ambientLightColorG": 200,
-              "ambientLightColorR": 200,
-              "camera3DFarPlaneDistance": 10000,
-              "camera3DFieldOfView": 45,
-              "camera3DNearPlaneDistance": 3,
-              "cameraType": "",
-              "followBaseLayerCamera": false,
-              "isLightingLayer": false,
-              "isLocked": false,
-              "name": "",
-              "renderingType": "",
-              "visibility": true,
-              "cameras": [
-                {
-                  "defaultSize": true,
-                  "defaultViewport": true,
-                  "height": 0,
-                  "viewportBottom": 1,
-                  "viewportLeft": 0,
-                  "viewportRight": 1,
-                  "viewportTop": 0,
-                  "width": 0
-                }
-              ],
-              "effects": []
-            }
-          ],
-          "instances": []
+          "variants": []
         }
       ]
     },
