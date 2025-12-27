@@ -839,12 +839,12 @@
           "effects": [],
           "behaviors": [
             {
+              "acceleration": 1500,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "gravity": 0,
               "deceleration": 3000,
               "maxSpeed": 100,
-              "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": false,
@@ -861,8 +861,8 @@
             {
               "name": "SmoothCamera",
               "type": "SmoothCamera::SmoothCamera",
-              "LeftwardSpeed": 20,
-              "RightwardSpeed": 20,
+              "LeftwardSpeed": 0,
+              "RightwardSpeed": 0,
               "UpwardSpeed": 0.9,
               "DownwardSpeed": 0.9,
               "FollowOnX": true,
