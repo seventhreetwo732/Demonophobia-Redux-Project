@@ -633,6 +633,14 @@
         "name": "assets\\image\\Crouching-2.png.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/image/Room/roomblack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Room\\roomblack.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -1459,7 +1467,7 @@
           "leftMargin": 0,
           "name": "blackloading",
           "rightMargin": 0,
-          "texture": "assets\\image\\Backgrounds\\Room\\roomblack.png",
+          "texture": "assets\\image\\Room\\roomblack.png",
           "tiled": false,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
