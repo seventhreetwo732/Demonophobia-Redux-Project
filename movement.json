@@ -2449,13 +2449,16 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.4564930403365035,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -2741,7 +2744,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Untitled54_20240327044747.png",
+                      "image": "assets\\image\\Idle-1.png.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3000,7 +3003,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Untitled63_20240401042706.png",
+                      "image": "assets\\image\\Crouching-1.png.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3017,7 +3020,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Untitled63_20240401041846.png",
+                      "image": "assets\\image\\Crouching-2.png.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3285,7 +3288,7 @@
           "leftMargin": 0,
           "name": "blackloading",
           "rightMargin": 0,
-          "texture": "assets\\image\\Backgrounds\\Room\\roomblack.png",
+          "texture": "assets\\image\\Room\\roomblack.png",
           "tiled": false,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
