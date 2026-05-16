@@ -657,6 +657,38 @@
         "name": "assets\\image\\portrait.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/image/crawling1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\crawling1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/crawling2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\crawling2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/crawling3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\crawling3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Room/roomlast.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Room\\roomlast.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -868,7 +900,7 @@
           "leftMargin": 0,
           "name": "background",
           "rightMargin": 0,
-          "texture": "Untitled48_20240317042008.png",
+          "texture": "assets\\image\\Room\\roomlast.png",
           "tiled": true,
           "topMargin": 0,
           "type": "PanelSpriteObject::PanelSprite",
@@ -1351,7 +1383,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\image\\Untitled66_20240401043045.png",
+                      "image": "assets\\image\\crawling1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1368,7 +1400,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\image\\Untitled66_20240401043302.png",
+                      "image": "assets\\image\\crawling2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1385,7 +1417,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\image\\Untitled66_20240401043058.png",
+                      "image": "assets\\image\\crawling3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1402,7 +1434,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\image\\Untitled66_20240401043302.png",
+                      "image": "assets\\image\\crawling2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
