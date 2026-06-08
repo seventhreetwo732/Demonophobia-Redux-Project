@@ -702,6 +702,11 @@
       "name": "Scene_Side",
       "type": "string",
       "value": "0"
+    },
+    {
+      "name": "IsVisible",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -753,6 +758,11 @@
           "name": "right",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -779,7 +789,7 @@
           "name": "Dummy",
           "persistentUuid": "2855a01d-7523-461f-93dd-9a8926755143",
           "width": 0,
-          "x": 373,
+          "x": 350,
           "y": 220,
           "zOrder": 3,
           "numberProperties": [],
@@ -919,6 +929,7 @@
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
@@ -943,8 +954,8 @@
               "type": "SmoothCamera::SmoothCamera",
               "LeftwardSpeed": 0,
               "RightwardSpeed": 0,
-              "UpwardSpeed": 0.9,
-              "DownwardSpeed": 0.9,
+              "UpwardSpeed": 1,
+              "DownwardSpeed": 1,
               "FollowOnX": true,
               "FollowOnY": false,
               "FollowFreeAreaLeft": 0,
@@ -1584,7 +1595,13 @@
           "name": "portrait",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "IsVisible",
+              "type": "boolean",
+              "value": true
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -2415,8 +2432,88 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "IsVisible",
+                "Toggle",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "IsVisible",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "portrait",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "IsVisible",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "portrait"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
