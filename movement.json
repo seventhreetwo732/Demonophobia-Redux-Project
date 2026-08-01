@@ -16,7 +16,7 @@
     "pixelsRounding": true,
     "projectUuid": "95f1ec99-ad10-414c-95e2-e9f7661120d4",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "movement test",
@@ -28,7 +28,35 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -689,6 +717,14 @@
         "name": "assets\\image\\Room\\roomlast.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/image/message.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\message.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -732,9 +768,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0459492198943288,
+        "zoomFactor": 0.8861256591604271,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [
         {
@@ -789,7 +825,7 @@
           "name": "Dummy",
           "persistentUuid": "2855a01d-7523-461f-93dd-9a8926755143",
           "width": 0,
-          "x": 350,
+          "x": 400,
           "y": 220,
           "zOrder": 3,
           "numberProperties": [],
@@ -861,7 +897,7 @@
           "name": "Trigger",
           "persistentUuid": "9e1f0e05-6286-4321-b007-26fd84a8bd6c",
           "width": 50,
-          "x": -100,
+          "x": -50,
           "y": 300,
           "zOrder": 5,
           "numberProperties": [],
@@ -878,7 +914,7 @@
           "name": "Trigger2",
           "persistentUuid": "0b7eaf49-65f6-4575-b5b3-ab9cd2f4bbc2",
           "width": 50,
-          "x": 900,
+          "x": 850,
           "y": 300,
           "zOrder": 6,
           "numberProperties": [],
@@ -894,9 +930,26 @@
           "name": "portrait",
           "persistentUuid": "e1fbbbab-78c0-4338-a89f-755838c37e85",
           "width": 0,
-          "x": 580,
+          "x": 600,
           "y": 10,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "NewSprite",
+          "opacity": 0,
+          "persistentUuid": "c8330711-5397-4a6e-be39-57e9968cdcf8",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1654,6 +1707,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\image\\message.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 10
+                          },
+                          {
+                            "x": 780,
+                            "y": 10
+                          },
+                          {
+                            "x": 780,
+                            "y": 590
+                          },
+                          {
+                            "x": 20,
+                            "y": 590
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1682,6 +1795,9 @@
           },
           {
             "objectName": "portrait"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -3180,7 +3296,7 @@
           "name": "portrait",
           "persistentUuid": "b8c87b92-e842-4707-b18f-1690dc1d3a07",
           "width": 0,
-          "x": 580,
+          "x": 600,
           "y": 10,
           "zOrder": 11,
           "numberProperties": [],
@@ -4705,6 +4821,91 @@
                 "Animation",
                 "=",
                 "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "IsVisible",
+                "Toggle",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "IsVisible",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "portrait",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "IsVisible",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "portrait"
+                  ]
+                }
               ]
             }
           ]
