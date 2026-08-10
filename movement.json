@@ -36,7 +36,7 @@
       "android-icon-72": "",
       "android-icon-96": "",
       "android-windowSplashScreenAnimatedIcon": "",
-      "desktop-icon-512": "",
+      "desktop-icon-512": "assets\\image\\icon.png",
       "ios-icon-100": "",
       "ios-icon-1024": "",
       "ios-icon-114": "",
@@ -723,6 +723,14 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\image\\message.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\icon.png",
         "smoothed": false,
         "userAdded": false
       }
