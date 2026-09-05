@@ -733,6 +733,358 @@
         "name": "assets\\image\\icon.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/image/madowaku_portrait.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\madowaku_portrait.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/message1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\message1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_image_message1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\image\\message1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/237.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\237.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Running7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Running7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Running8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Running8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Running9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Running9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Running10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Running10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Running11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Running11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Running12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Running12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Running13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Running13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Running14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Running14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Running15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Running15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Running16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Running16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Running17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Running17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Running18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Running18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Idle.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Walking.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Walking.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Walking2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Walking2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Walking3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Walking3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Walking4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Walking4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Walking5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Walking5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Walking6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Walking6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Running.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Running.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Running2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Running2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Running3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Running3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Running4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Running4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Running5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Running5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Running6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Running6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/image/Message1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\Message1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -776,9 +1128,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8861256591604271,
+        "zoomFactor": 1.011829979016807,
         "windowMask": false,
-        "selectedLayer": "UI"
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -833,9 +1185,9 @@
           "name": "Dummy",
           "persistentUuid": "2855a01d-7523-461f-93dd-9a8926755143",
           "width": 0,
-          "x": 400,
-          "y": 220,
-          "zOrder": 3,
+          "x": 300,
+          "y": 226,
+          "zOrder": 237,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -951,13 +1303,44 @@
           "height": 0,
           "keepRatio": true,
           "layer": "UI",
-          "name": "NewSprite",
-          "opacity": 0,
-          "persistentUuid": "c8330711-5397-4a6e-be39-57e9968cdcf8",
+          "name": "message1",
+          "persistentUuid": "c78d1734-fdda-43a0-a85b-fe1d67abc80b",
           "width": 0,
-          "x": 0,
-          "y": 0,
-          "zOrder": 8,
+          "x": 20,
+          "y": 10,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Mado_Portrait",
+          "persistentUuid": "42fbdbee-d9b6-439c-80d5-fe0809f025ea",
+          "width": 0,
+          "x": 600,
+          "y": 10,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "madowaku",
+          "persistentUuid": "a5988b5f-fb2c-41c7-9a4a-98991dee03bd",
+          "width": 0,
+          "x": 600,
+          "y": 223,
+          "zOrder": 236,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1075,7 +1458,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\image\\Idle-1.png.png",
+                      "image": "assets\\image\\Idle.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1105,7 +1488,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Walking",
+                      "image": "assets\\image\\Walking.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1122,7 +1505,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Walking2",
+                      "image": "assets\\image\\Walking2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1139,7 +1522,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Walking3",
+                      "image": "assets\\image\\Walking3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1156,7 +1539,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Walking4",
+                      "image": "assets\\image\\Walking4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1173,7 +1556,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Walking5",
+                      "image": "assets\\image\\Walking5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1190,7 +1573,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Walking6",
+                      "image": "assets\\image\\Walking6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1220,7 +1603,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Running",
+                      "image": "assets\\image\\Running.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1237,7 +1620,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Running2",
+                      "image": "assets\\image\\Running2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1254,7 +1637,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Running3",
+                      "image": "assets\\image\\Running3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1271,7 +1654,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Running4",
+                      "image": "assets\\image\\Running4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1288,7 +1671,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Running5",
+                      "image": "assets\\image\\Running5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1305,7 +1688,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Running6",
+                      "image": "assets\\image\\Running6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1775,6 +2158,187 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Mado_Portrait",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\image\\madowaku_portrait.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 180,
+                            "y": 0
+                          },
+                          {
+                            "x": 180,
+                            "y": 180
+                          },
+                          {
+                            "x": 0,
+                            "y": 180
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "message1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\image\\message1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\image\\Message1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 760,
+                            "y": 0
+                          },
+                          {
+                            "x": 760,
+                            "y": 180
+                          },
+                          {
+                            "x": 0,
+                            "y": 180
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "madowaku",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\image\\237.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 13
+                          },
+                          {
+                            "x": 59,
+                            "y": 13
+                          },
+                          {
+                            "x": 59,
+                            "y": 245
+                          },
+                          {
+                            "x": 6,
+                            "y": 245
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1805,7 +2369,16 @@
             "objectName": "portrait"
           },
           {
+            "objectName": "Mado_Portrait"
+          },
+          {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "message1"
+          },
+          {
+            "objectName": "madowaku"
           }
         ]
       },
@@ -1888,6 +2461,110 @@
                 "850",
                 "=",
                 "220"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "portrait"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Mado_Portrait"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "message1"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "NPCS",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Dummy",
+                ">",
+                "540"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "madowaku",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Dummy",
+                "<",
+                "540"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "madowaku",
+                "Flippable",
+                "no"
               ]
             }
           ]
