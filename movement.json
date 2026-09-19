@@ -1173,7 +1173,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.1176780334894045,
+        "zoomFactor": 1.3192648865725174,
         "windowMask": false,
         "selectedLayer": "UI"
       },
@@ -1394,13 +1394,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 170,
+          "height": 166,
           "layer": "UI",
           "name": "messagetext",
           "persistentUuid": "4aad5489-ea4c-4e6a-952a-31481e097a5f",
-          "width": 550,
-          "x": 27,
-          "y": 15,
+          "width": 555,
+          "x": 28,
+          "y": 17,
           "zOrder": 238,
           "numberProperties": [],
           "stringProperties": [],
@@ -2782,6 +2782,55 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\"",
+                ">=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "message1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Mado_Portrait"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "messagetext"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "DialogueTree::IsDialogueLineType"
               },
               "parameters": [
@@ -2824,14 +2873,6 @@
                     "value": "DialogueTree::ScrollClippedText"
                   },
                   "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "DialogueTree::StartDialogueFromBranch"
-                  },
-                  "parameters": [
-                    "\"Start\""
-                  ]
                 }
               ]
             },
@@ -2844,7 +2885,7 @@
                   },
                   "parameters": [
                     "",
-                    "x"
+                    "z"
                   ]
                 },
                 {
@@ -2868,7 +2909,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyReleased"
+                    "value": "KeyFromTextPressed"
                   },
                   "parameters": [
                     "",
@@ -2895,7 +2936,7 @@
                 {
                   "type": {
                     "inverted": true,
-                    "value": "KeyReleased"
+                    "value": "KeyFromTextPressed"
                   },
                   "parameters": [
                     "",
