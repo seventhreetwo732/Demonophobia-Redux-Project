@@ -2774,6 +2774,16 @@
               "parameters": [
                 "\"Start\""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Dummy",
+                "PlatformerObject",
+                ""
+              ]
             }
           ]
         },
@@ -2822,6 +2832,16 @@
               },
               "parameters": [
                 "messagetext"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Dummy",
+                "PlatformerObject",
+                "yes"
               ]
             }
           ]
